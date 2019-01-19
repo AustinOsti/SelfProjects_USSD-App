@@ -1,0 +1,29 @@
+{
+  "name": "USSD-Test-App",
+  "version": "1.0.0",
+  "description": "Sample USSD Application using NodeJS",
+  "main": "server.js",
+  "scripts": {
+	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinOsti/USSD-Test-App.git"
+  },
+  "keywords": [
+	"USSD",
+    "NODE"
+  ],
+  "author": "austin.nyika2015@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AustinOsti/USSD-Test-App/issues"
+  },
+  "homepage": "https://github.com/AustinOsti/USSD-Test-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
